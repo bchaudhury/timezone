@@ -27,8 +27,8 @@ const GetTime = () => {
   return (
     <div className='time-container'>
         <h1>World Time</h1>
-
-        <select className='location-select' onChange={fetchTime}>
+ 
+        <select className='location-select' onChange={fetchTime} type="text"> 
             <option value="">Select a location</option>
             {Object.keys(timezones).map((key, index) => (
                 <option key={index} value={timezones[key]}>{key}</option>

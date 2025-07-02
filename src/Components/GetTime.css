@@ -53,10 +53,10 @@
 }
 
 .time-display {
-    font-size: 1.2em;
+    font-size: 1rem;
     color: #333333;
     margin: auto;
-    padding: 5px;
+    padding: auto;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -70,17 +70,20 @@
     font-weight: 600;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
 .time-display span {
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #8b1202;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5f0d02;
     font-size: 1rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    margin: 5px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .location-select {
