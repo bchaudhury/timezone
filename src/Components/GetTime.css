@@ -3,7 +3,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     width: 320px;
-    height: 200px;
+    height: 250px;
     margin: 20px auto;
     text-align: center;
     background-image: url('../Assets/world_map.png');
@@ -35,7 +35,7 @@
     width: 70%;
     height: 30px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #503e3e;
     border-radius: 4px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
@@ -93,4 +93,14 @@
     background-color: #fcfcf9;
     border: 2px solid #0e0d0d;
     border-radius: 4px;
+}
+
+.my-logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    border: 2px solid #2ba02b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

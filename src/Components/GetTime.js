@@ -1,6 +1,7 @@
 import React from 'react'
 import './GetTime.css'
 import timezones from '../Data/TimeZone.json';
+import myLogo from '../Assets/Bhaskar.png'; 
 
 const GetTime = () => {
     // This component will handle fetching and displaying the time for a given location
@@ -26,6 +27,7 @@ const GetTime = () => {
 
   return (
     <div className='time-container'>
+        <img className='my-logo' src={myLogo} alt="My Logo" />
         <h1>World Time</h1>
  
         <select className='location-select' onChange={fetchTime} type="text"> 
