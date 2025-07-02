@@ -96,11 +96,11 @@
 }
 
 .my-logo {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin: 10px auto;
     display: block;
-    border: 2px solid #2ba02b;
+    border: 1px solid #909490;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
