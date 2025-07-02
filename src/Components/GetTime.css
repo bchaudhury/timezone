@@ -1,0 +1,93 @@
+.time-container {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    background-image: url('../Assets/world_map.png');
+    background-size: cover;
+    z-index: 1000;
+    border: 2px solid #494545;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.time-container h1 {
+    text-align: center;
+    color: #460202;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.time-container p {
+    text-align: center;
+    color: #f84343;
+    font: optional;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.time-container .location-select {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: #333;
+}
+
+.time-container button {
+    width: 25%;
+    height: 36px;
+    background-color: #f84343;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.time-display {
+    font-size: 1.2em;
+    color: #333333;
+    margin: auto;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 75%;
+}
+
+.time-display .result {
+    margin: 3px 0;
+    font-size: 1rem;
+    color: #8d4102;
+    font-weight: 600;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.time-display span {
+    font-weight: 500;
+    font-style: normal;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8b1202;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.location-select {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #fcfcf9;
+    border: 2px solid #0e0d0d;
+    border-radius: 4px;
+}
