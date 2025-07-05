@@ -36,8 +36,7 @@ const GetTime = () => {
                 <option key={index} value={timezones[key]}>{key}</option>
             ))}
         </select>
-        <br />
-        
+        <hr></hr>
 
         {/* Display the fetched time here */}
         <div className="time-display">

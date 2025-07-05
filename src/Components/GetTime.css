@@ -34,7 +34,7 @@
 .time-container .location-select {
     width: 70%;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 1px solid #503e3e;
     border-radius: 4px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -61,29 +61,32 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 75%;
+
 }
 
 .time-display .result {
     margin: 3px 0;
     font-size: 1rem;
-    color: #8d4102;
+    color: #2d8803;
     font-weight: 600;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-weight: 600;
     letter-spacing: 1px;
+    padding: 2px;
+    text-align: center;
 }
 
 .time-display span {
     font-weight: 600;
     font-style: normal;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #5f0d02;
     font-size: 1rem;
     letter-spacing: 1px;
     margin: 5px;
     margin-top: 5px;
-    text-align: center;
+    text-align: left;
 }
 
 .location-select {
@@ -103,4 +106,12 @@
     display: block;
     border: 1px solid #909490;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+    border: 1px solid rgb(199, 182, 182);
+    margin-top: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
